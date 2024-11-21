@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yrkesmässig presentation av [Ditt Namn], en professionell som söker jobb.">
+    <title>[Ditt Namn] - Professionell Profil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Välkommen till min professionella profil</h1>
+            <p>Jag är [Ditt Namn], en driven och passionerad [din yrkesroll, t.ex. "webbutvecklare" eller "marknadsförare"].</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Om mig</h2>
+            <p>Jag är en [kort beskrivning av dig själv och din erfarenhet]. Jag är ständigt på jakt efter nya utmaningar och har en stor passion för [det du tycker om att göra].</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Färdigheter</h2>
+            <ul>
+                <li>Färdighet 1</li>
+                <li>Färdighet 2</li>
+                <li>Färdighet 3</li>
+                <li>Färdighet 4</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p>Vill du komma i kontakt med mig? Fyll i formuläret här nedan:</p>
+            <form id="contact-form">
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Meddelande:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Skicka</button>
+            </form>
+            <div id="response-message"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 [Ditt Namn]. Alla rättigheter förbehållna.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
